@@ -1,3 +1,16 @@
 .dark{
     background-color: #343a40;
 }
+.success{
+    background-color: #111010;
+    min-height:85vh;
+}
+.profile{
+    margin-top: 220px;
+    margin-left: 14px;
+    color: whitesmoke;
+}
+.dev-h3{
+    font-weight: 300;
+
+}
