@@ -1,0 +1,25 @@
+.projects{
+    background-color: #0e0e0e;
+    min-height: calc(100vh - 180px);
+    color: rgb(255, 255, 255);
+   
+}
+
+.project-col{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #17191a;
+}
+.project-container{
+    margin-top: 44px;
+    margin-left: 8px;
+    
+}
+.project-links{
+    display: flex;
+    justify-content: space-between;
+    margin:31px;
+}
+.button1{
+    padding-right: 1.25rem;
+}

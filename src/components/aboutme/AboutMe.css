@@ -1,0 +1,9 @@
+.about-me{
+    background-color: #17191a;
+    min-height: calc(100vh - 180px);
+    color: rgb(255, 255, 255);
+   
+}
+.about-me-info{
+    margin-top:105px;
+}
