@@ -10,7 +10,7 @@ const AboutMe = () => {
             <Container>
                 <Row>
                     <Col>
-                    <img src='' alt="undraw_static_assets_rpm6" className="img-fluid" />
+                    
                     </Col>
                     <Col>
                     <div className="about-me-info">

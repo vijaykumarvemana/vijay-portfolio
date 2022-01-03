@@ -4,21 +4,29 @@
     color: rgb(255, 255, 255);
    
 }
+.project-row{
+    margin-top: -14px;
+    margin-right: -180px !important;
+}
 
 .project-col{
     padding-left: 15px;
     padding-right: 15px;
     background-color: #17191a;
+    margin-left: 34px;
 }
 .project-container{
-    margin-top: 44px;
-    margin-left: 8px;
+    margin-top: 20px;
+    margin-left: 5px;
     
 }
 .project-links{
     display: flex;
     justify-content: space-between;
+  
     margin:31px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .button1{
     padding-right: 1.25rem;
