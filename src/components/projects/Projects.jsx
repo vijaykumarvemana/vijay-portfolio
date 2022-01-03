@@ -16,8 +16,8 @@ const Projects = () => {
                         <h3 className='project-title'>Project</h3>
                         <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
                         <div className='project-links'>
-                        <Button> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button > <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
+                        <Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button>
                         </div>
                     </div>
                     </Col>
@@ -27,8 +27,8 @@ const Projects = () => {
                         <h3 className='project-title'>Project</h3>
                         <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
                         <div className='project-links'>
-                        <Button> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button > <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
+                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
                         </div>
                     </div>
                     </Col>
@@ -37,8 +37,8 @@ const Projects = () => {
                         <h3 className='project-title'>Project</h3>
                         <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
                         <div className='project-links'>
-                        <Button> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button > <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
+                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
                         </div>
                     </div>
                     </Col>
@@ -50,8 +50,8 @@ const Projects = () => {
                         <h3 className='project-title'>Project</h3>
                         <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
                         <div className='project-links'>
-                        <Button> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button > <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
+                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
                         </div>
                     </div>
                     </Col>
@@ -61,8 +61,8 @@ const Projects = () => {
                         <h3 className='project-title'>Project</h3>
                         <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
                         <div className='project-links'>
-                        <Button> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button > <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
+                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
                         </div>
                     </div>
                     </Col>
@@ -71,8 +71,8 @@ const Projects = () => {
                         <h3 className='project-title'>Project</h3>
                         <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
                         <div className='project-links'>
-                        <Button> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button > <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
+                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
                         </div>
                     </div>
                     </Col>

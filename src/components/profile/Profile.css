@@ -11,9 +11,9 @@
     font-weight: 300;
 
 }
-.button{
+.profile-button{
     margin-top: 20px;
-    background-color: #1331b6 !important;
+    background-color: #1331b6 ;
     color: whitesmoke;
     border: none;
     outline: none;
@@ -21,10 +21,7 @@
     padding-left: 25px;
     padding-right: 25px;
 }
-.button:active {
-    outline: none;
-    border: none;
-  }
+
 
 .profile-img{
     width: 100px;

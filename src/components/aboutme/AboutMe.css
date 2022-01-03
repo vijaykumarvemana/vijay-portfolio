@@ -7,3 +7,11 @@
 .about-me-info{
     margin-top:105px;
 }
+
+.button-about-me{
+    background-color: #1331b6;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

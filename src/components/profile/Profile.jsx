@@ -12,7 +12,7 @@ const Profile = () => {
          <h5 >Hello, I'm </h5>
              <h1>VIJAY KUMAR VEMANA</h1>
             <h3 className="dev-h3"><span>Full Stack Web Developer</span></h3>
-            <Button className="button px-5"> <span className="mx-3 "><BsWhatsapp /></span>WhatsApp</Button>
+            <Button className="profile-button px-5"> <span className="mx-3 "><BsWhatsapp /></span>WhatsApp</Button>
        </div>
         </Col>
         <Col >

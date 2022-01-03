@@ -23,11 +23,18 @@
 .project-links{
     display: flex;
     justify-content: space-between;
-  
+   
     margin:31px;
     margin-left: 0px;
     margin-right: 0px;
 }
 .button1{
     padding-right: 1.25rem;
+}
+.links{
+    background-color: #1331b6;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 25px;
 }

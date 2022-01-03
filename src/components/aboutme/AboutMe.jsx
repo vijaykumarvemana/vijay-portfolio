@@ -22,8 +22,8 @@ const AboutMe = () => {
              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, sunt. lorem10
                 ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, sunt. lorem10
                 </p>
-                <Button className="button px-5"> <span className="mx-3 "><BsLinkedin /></span>LinkedIn</Button>
-                <Button className="button mx-3 px-5"> <span className="mx-3 "><FaCloudDownloadAlt /></span>Resume</Button>
+                <Button className="button-about-me px-5"> <span className="mx-3 "><BsLinkedin /></span>LinkedIn</Button>
+                <Button className="button-about-me mx-3 px-5"> <span className="mx-3 "><FaCloudDownloadAlt /></span>Resume</Button>
        </div>
                     </Col>
                 </Row>
