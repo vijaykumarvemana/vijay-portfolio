@@ -1,0 +1,19 @@
+.education{
+    background-color: #17191a;
+    min-height:calc(100vh - 250px);
+}
+.project-cols{
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: #0e0e0e;
+    margin-left: 5px;
+    color: white;
+}
+.project-cols1{
+    margin-left: 33px;
+}
+.project-title1{
+    font-size: 3rem;
+    color: #1331b6;
+    margin-left: 92px;
+}

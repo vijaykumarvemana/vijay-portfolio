@@ -1,6 +1,6 @@
 .projects{
     background-color: #0e0e0e;
-    min-height: calc(100vh - 180px);
+    min-height: calc(100vh - 250px);
     color: rgb(255, 255, 255);
    
 }
@@ -37,4 +37,7 @@
     outline: none;
     padding-left: 20px;
     padding-right: 25px;
+}
+.git-repos{
+    margin-bottom: 0px;
 }

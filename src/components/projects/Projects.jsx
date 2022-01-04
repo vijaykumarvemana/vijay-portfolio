@@ -77,7 +77,9 @@ const Projects = () => {
                     </div>
                     </Col>
                 </Row>
+                
                 </Container>
+                <h6 className='text-center py-5  text-primary git-repos'><a href="https://github.com/vijaykumarvemana?tab=repositories" target="_blank">Repositories on GitHub</a></h6>
                 </section>
       
     )
