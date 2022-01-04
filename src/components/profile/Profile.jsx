@@ -216,11 +216,7 @@ const Profile = () => {
               />
             </g>
           </g>
-          <defs>
-            <clipPath id="clip0">
-              <rect width="798.627" height="689.223" fill="white" />
-            </clipPath>
-          </defs>
+          
         </svg>
         </div>
        

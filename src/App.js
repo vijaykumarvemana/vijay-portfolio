@@ -6,16 +6,19 @@ import Education from './components/education/Education';
 import NavBar from './components/navbar/NavBar';
 import Profile from './components/profile/Profile';
 import Projects from './components/projects/Projects';
+import Skills from './components/skills/Skills';
 
 function App() {
   return (
-    <div bg="dark">
+   <>
      <NavBar />
      <Profile />
      <AboutMe />
      <Projects />
      <Education />
-    </div>
+     <Skills />
+     </>
+   
   );
 }
 

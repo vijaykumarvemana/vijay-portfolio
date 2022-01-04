@@ -1,6 +1,7 @@
 .success{
     background-color: #0e0e0e;
     min-height:calc(100vh - 100px);
+    
 }
 .profile{
     margin-top: 220px;
@@ -32,7 +33,7 @@
 }
 .profile-svg{
     margin-top:30px ;
-    margin-left: 35px;
+  
  
 }
 

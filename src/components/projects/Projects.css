@@ -2,11 +2,12 @@
     background-color: #0e0e0e;
     min-height: calc(100vh - 250px);
     color: rgb(255, 255, 255);
+    
    
 }
 .project-row{
     margin-top: -14px;
-    margin-right: -180px !important;
+    margin-right: -118px;
 }
 
 .project-col{
