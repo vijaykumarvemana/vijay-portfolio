@@ -10,15 +10,12 @@ const Skills = () => {
 
     return(
         <section className="skills">
-            <Container>
+            <Container >
+            <h2 className='text-center  text-white pt-3 title-skills'>Skills</h2>
                 <Row>
-                    <Col>
-                        <div className="skills-container">
-                            <h2 className="skills-title">Skills</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, a!</p>
-                        </div>    
-                    </Col>
-                    <Col>
+                
+                    <Col className="skills-col">
+                        
                     <div className="skills-container1 d-flex">
                         <div className="skills-container2">
                         <div className="skills-logo"><IoLogoHtml5/></div>

@@ -11,7 +11,7 @@
 
     height: 50%;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -40,7 +40,14 @@
     background-color: #17191a;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 10px;
     font-size: 2rem;
     
     
+}
+.skills-col{
+    margin-left: 240px;
+}
+.title-skills{
+   
 }

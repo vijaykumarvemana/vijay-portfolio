@@ -1,18 +1,19 @@
 import {Container, Row, Col, Button} from "react-bootstrap"
 import "../profile/Profile.css"
 import { BsWhatsapp } from "react-icons/bs";
+import {FaPrayingHands} from "react-icons/fa";
 const Profile = () => {
 
     return (
         <section className="success">
-<Container  fluid>
+<Container >
     <Row >
         <Col>
        <div className="profile">
          <h5 >Hello, I'm </h5>
              <h1>VIJAY KUMAR VEMANA</h1>
             <h3 className="dev-h3"><span>Full Stack Web Developer</span></h3>
-            <Button className="profile-button px-5"> <span className="mx-3 "><BsWhatsapp /></span>WhatsApp</Button>
+            <Button className="profile-button px-5"> <span className="mx-3 "><FaPrayingHands /></span>Welcome!</Button>
        </div>
         </Col>
         <Col >
