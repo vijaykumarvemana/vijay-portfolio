@@ -5,9 +5,9 @@ const Profile = () => {
 
     return (
         <section className="success">
-<Container >
-    <Row>
-        <Col >
+<Container  fluid>
+    <Row >
+        <Col>
        <div className="profile">
          <h5 >Hello, I'm </h5>
              <h1>VIJAY KUMAR VEMANA</h1>
