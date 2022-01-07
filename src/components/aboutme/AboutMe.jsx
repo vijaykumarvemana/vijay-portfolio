@@ -7,7 +7,7 @@ import { Element, Link } from 'react-scroll'
 
 const AboutMe = () => {
     return (
-        <Element name="about">
+        <Element name="about-me">
         <section className="about-me">
             <Container>
                 <Row>
