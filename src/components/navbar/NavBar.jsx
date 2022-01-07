@@ -1,5 +1,8 @@
 import { Nav, Navbar, Container} from "react-bootstrap";
 import "../navbar/NavBar.css";
+import Scroll from 'react-scroll';
+import { Link } from "react-scroll";
+
 
 const NavBar = () => {
 
@@ -8,19 +11,33 @@ const NavBar = () => {
         <section className="dark">
         <Container className="text-white" >
         <Navbar collapseOnSelect expand="lg" className="dark text-white"  className="sticky">
-  <Navbar.Brand href="#home" className="text-white" >Portfolio</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav"  className="justify-content-around p-1 text-white">
-    <Nav  >
-    <Nav.Link href="#about me" className="mx-5 text-white" >About Me</Nav.Link>
-      <Nav.Link href="#projects" className="mx-5 text-white">Projects</Nav.Link>
-      <Nav.Link href="#services" className="mx-5 text-white ">Services</Nav.Link>
-      <Nav.Link href="#skills" className="mx-5 text-white">Skills</Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
-</Container>
-</section>
+        <Navbar.Brand href="#home" className="text-white" >Portfolio</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav"  className="justify-content-around p-1 text-white">
+        <Nav>
+        
+        <Link  className="nav-link" activeClass="active" to="about-me" spy={true} smooth={true} offset={-70} duration={500}>
+        <Nav.Link  className="mx-5 text-white" >About Me</Nav.Link>
+        </Link>
+       
+        <Link  className="nav-link" to="projects" spy={true} smooth={true} offset={-70} duration={500}>
+        <Nav.Link href="#projects" className="mx-5 text-white">Projects</Nav.Link>
+        </Link>
+        
+        <Link  className="nav-link" activeClass="active" to="education" spy={true} smooth={true} offset={-70} duration={500}>
+        
+        <Nav.Link href="#services" className="mx-5 text-white ">Education</Nav.Link>
+        </Link>
+ 
+        <Link  className="nav-link" activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={500}>
+        <Nav.Link href="#skills" className="mx-5 text-white">Skills</Nav.Link>
+        </Link>
+    
+        </Nav>
+        </Navbar.Collapse>
+        </Navbar>
+        </Container>
+        </section>
 
 </>
 

@@ -2,9 +2,11 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './Projects.css'
 import { FiLink} from "react-icons/fi"
 import {FiGithub} from "react-icons/fi"
+import { Element } from 'react-scroll';
 
 const Projects = () => {
     return(
+        <Element name="projects">
         <section className="projects">
             
             <Container>
@@ -81,7 +83,7 @@ const Projects = () => {
                 </Container>
                 <h6 className='text-center py-5  text-primary git-repos'><a href="https://github.com/vijaykumarvemana?tab=repositories" target="_blank">Repositories on GitHub</a></h6>
                 </section>
-      
+      </Element>
     )
 }
 

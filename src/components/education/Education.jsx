@@ -3,10 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import {MdOutlineCastForEducation, MdOutlineIntegrationInstructions} from "react-icons/md"
 import {BiCertification} from "react-icons/bi"
 import {FaSlideshare} from "react-icons/fa"
+import { Element } from 'react-scroll'
 
 const Education = (props) => {
 
     return (
+        <Element name="education">
         <section className="education">
         <Container>
             <h2 className='text-center pt-4 text-white'>Education</h2>
@@ -48,6 +50,7 @@ const Education = (props) => {
                 </Row>
         </Container>
         </section>
+        </Element>
     )
 }
 

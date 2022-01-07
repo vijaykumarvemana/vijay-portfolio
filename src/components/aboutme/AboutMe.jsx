@@ -3,9 +3,11 @@ import '../aboutme/AboutMe.css'
 import { Col, Container, Row, Button } from "react-bootstrap"
 import { BsLinkedin} from "react-icons/bs"
 import {FaCloudDownloadAlt} from "react-icons/fa"
+import { Element, Link } from 'react-scroll'
 
 const AboutMe = () => {
     return (
+        <Element name="about">
         <section className="about-me">
             <Container>
                 <Row>
@@ -30,6 +32,7 @@ const AboutMe = () => {
                 </Row>
             </Container>
         </section>
+        </Element>
     )
 }
 

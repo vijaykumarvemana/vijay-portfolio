@@ -6,9 +6,11 @@ import { FaGitAlt, FaGithubSquare } from "react-icons/fa";
 
 import { IoLogoCss3 , IoLogoHtml5, IoLogoJavascript} from "react-icons/io"
 import { IoLogoNodejs } from "react-icons/io";
+import { Element } from "react-scroll";
 const Skills = () => {
 
     return(
+        <Element name="skills">
         <section className="skills">
             <Container >
             <h2 className='text-center  text-white pt-3 title-skills'>Skills</h2>
@@ -44,6 +46,7 @@ const Skills = () => {
             </Container>
 
         </section>
+        </Element>
     )
 }
 

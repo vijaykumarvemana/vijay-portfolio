@@ -2,9 +2,11 @@ import {Container, Row, Col, Button} from "react-bootstrap"
 import "../profile/Profile.css"
 import { BsWhatsapp } from "react-icons/bs";
 import {FaPrayingHands} from "react-icons/fa";
+import { Element } from "react-scroll";
 const Profile = () => {
 
     return (
+     
         <section className="success">
 <Container >
     <Row >
@@ -13,7 +15,7 @@ const Profile = () => {
          <h5 >Hello, I'm </h5>
              <h1>VIJAY KUMAR VEMANA</h1>
             <h3 className="dev-h3"><span>Full Stack Web Developer</span></h3>
-            <Button className="profile-button px-5"> <span className="mx-3 "><FaPrayingHands /></span>Welcome!</Button>
+            <Button className="profile-button px-5"> <span className="mx-3 welcome-icon"><FaPrayingHands /></span>Welcome!</Button>
        </div>
         </Col>
         <Col >
@@ -225,6 +227,7 @@ const Profile = () => {
     </Row>
     </Container>
 </section>
+
     )
 
     }
