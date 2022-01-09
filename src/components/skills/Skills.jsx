@@ -20,25 +20,28 @@ const Skills = () => {
                         
                     <div className="skills-container1 d-flex">
                         <div className="skills-container2">
-                        <div className="skills-logo"><IoLogoHtml5/></div>
-                        <div className="skills-logo"><IoLogoCss3 /></div>
-                        <div className="skills-logo"><SiBootstrap /></div>
-                        <div className="skills-logo"><IoLogoJavascript /></div>
-                        <div className="skills-logo"><RiReactjsLine /></div>
-                        <div className="skills-logo"><SiRedux /></div>
-                        <div className="skills-logo"><SiTypescript /></div>
+                        <div className="skills-logo"><span className="skills-title">HTML5</span><IoLogoHtml5/>
+                        
+                        </div>
+                       
+                        <div className="skills-logo"><span className="skills-title">CSS3</span><IoLogoCss3 /></div>
+                        <div className="skills-logo"><span className="skills-title">Bootstrap</span><SiBootstrap /></div>
+                        <div className="skills-logo"><span className="skills-title">JavaScript</span><IoLogoJavascript /></div>
+                        <div className="skills-logo"><span className="skills-title">ReactJs</span><RiReactjsLine /></div>
+                        <div className="skills-logo"><span className="skills-title">Redux</span><SiRedux /></div>
+                        <div className="skills-logo"><span className="skills-title">TypeScript</span><SiTypescript /></div>
                       
 
                         </div>
                         <div className="skills-container2">
                         
-                        <div className="skills-logo"><IoLogoNodejs /></div>
-                        <div className="skills-logo"><SiExpress /></div>
-                        <div className="skills-logo"><SiMongodb /></div>
-                        <div className="skills-logo"><SiPostgresql /></div>
-                        <div className="skills-logo"><FaGitAlt /></div>
-                        <div className="skills-logo"><FaGithubSquare /></div>
-                        <div className="skills-logo"><SiMicrosoftazure /></div>
+                        <div className="skills-logo"><span className="skills-title1">NodeJs</span><IoLogoNodejs /></div>
+                        <div className="skills-logo"><span className="skills-title1">ExpressJs</span><SiExpress /></div>
+                        <div className="skills-logo"><span className="skills-title1">MongoDB</span><SiMongodb /></div>
+                        <div className="skills-logo"><span className="skills-title1">PostgreSQL</span><SiPostgresql /></div>
+                        <div className="skills-logo"><span className="skills-title1">Git</span><FaGitAlt /></div>
+                        <div className="skills-logo"><span className="skills-title1">GitHub</span><FaGithubSquare /></div>
+                        <div className="skills-logo"><span className="skills-title1">Azure</span><SiMicrosoftazure /></div>
                         </div>
                     </div>
                     </Col>

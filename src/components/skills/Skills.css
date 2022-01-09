@@ -5,7 +5,10 @@
    
 }
 .skills-title{
-    margin-top: 200px;
+    margin-top: -160px;
+}
+.skills-title1{
+    margin-top: 160px;
 }
 .skills-container1{
 
@@ -42,12 +45,67 @@
     margin-right: 5px;
     margin-bottom: 10px;
     font-size: 2rem;
+
     
     
+}
+.skills-logo .skills-title{
+    visibility: hidden;
+  width: 80px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.skills-title{
+    font-size: 15px;
+}
+.skills-title1{
+    font-size: 15px;
+}
+.skills-logo:hover .skills-title {
+    visibility: visible;
+    background-color: #17191a;
+    color: white;
+    
+}
+.skills-logo:hover .skills-title1 {
+    visibility: visible;
+    background-color: #17191a;
+    color: white;
+    
+}
+.skills-logo .skills-title1{
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.skills-title1{
+    font-size: 15px;
+}
+.skills-title{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.skills-title1{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
 }
 .skills-col{
     margin-left: 240px;
-}
-.title-skills{
-   
 }
