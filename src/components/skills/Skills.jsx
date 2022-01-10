@@ -25,7 +25,7 @@ const Skills = () => {
                         </div>
                        
                         <div className="skills-logo"><span className="skills-title">CSS3</span><IoLogoCss3 /></div>
-                        <div className="skills-logo"><span className="skills-title">Bootstrap</span><SiBootstrap /></div>
+                        <div className="skills-logo"><span className="skills-title">Bootstrap4</span><SiBootstrap /></div>
                         <div className="skills-logo"><span className="skills-title">JavaScript</span><IoLogoJavascript /></div>
                         <div className="skills-logo"><span className="skills-title">ReactJs</span><RiReactjsLine /></div>
                         <div className="skills-logo"><span className="skills-title">Redux</span><SiRedux /></div>
