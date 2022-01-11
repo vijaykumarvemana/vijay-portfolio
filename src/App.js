@@ -1,5 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.min.css';
+
 import './App.css';
 import AboutMe from './components/aboutme/AboutMe';
 import Education from './components/education/Education';
@@ -7,6 +9,7 @@ import NavBar from './components/navbar/NavBar';
 import Profile from './components/profile/Profile';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
      <Projects />
      <Education />
      <Skills />
+     <Contact />
      </>
    
   );
