@@ -2,6 +2,8 @@ import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import{ init } from '@emailjs/browser';
+
 
 const Contact = () => {
   const {
@@ -41,7 +43,7 @@ const Contact = () => {
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
         templateParams,
-        process.env.REACT_APP_USER_ID
+        init("user_AeJQh5EL6D7ZKTBjFVO21")
       );
 
       reset();
