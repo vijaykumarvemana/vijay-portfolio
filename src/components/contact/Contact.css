@@ -1,0 +1,12 @@
+.contact{
+    background-color: #17191a;
+    min-height:calc(100vh - 250px);
+    color: white;
+}
+#contact-form{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+   
+}

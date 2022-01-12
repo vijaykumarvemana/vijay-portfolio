@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import{ init } from '@emailjs/browser';
+import "./Contact.css";
 
 
 const Contact = () => {
@@ -43,7 +44,7 @@ const Contact = () => {
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
         templateParams,
-        init("user_AeJQh5EL6D7ZKTBjFVO21")
+        process.env.REACT_APP_USER_ID
       );
 
       reset();
@@ -54,15 +55,21 @@ const Contact = () => {
   };
 
   return (
+    <section className='contact'>
+  
     <div className='ContactForm'>
+    
       <div className='container'>
+        
         <div className='row'>
+       
           <div className='col-12 text-center'>
             <div className='contactForm'>
+            <h2  className='mt-2'>contact</h2>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
                 <div className='row formRow'>
-                  <div className='col-6'>
+                  <div className='col-6 mb-3 '>
                     <input
                       type='text'
                       name='name'
@@ -73,12 +80,12 @@ const Contact = () => {
                           message: 'Please use 30 characters or less'
                         }
                       })}
-                      className='form-control formInput'
+                      className='form-control formInput bg-dark'
                       placeholder='Name'
                     ></input>
                     {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                   </div>
-                  <div className='col-6'>
+                  <div className='col-6 mb-3'>
                     <input
                       type='email'
                       name='email'
@@ -96,7 +103,7 @@ const Contact = () => {
                 </div>
                 {/* Row 2 of form */}
                 <div className='row formRow'>
-                  <div className='col'>
+                  <div className='col mb-3'>
                     <input
                       type='text'
                       name='subject'
@@ -117,7 +124,7 @@ const Contact = () => {
                 </div>
                 {/* Row 3 of form */}
                 <div className='row formRow'>
-                  <div className='col'>
+                  <div className='col mb-3'>
                     <textarea
                       rows={3}
                       name='message'
@@ -130,7 +137,7 @@ const Contact = () => {
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-                <button className='submit-btn' type='submit'>
+                <button className='submit-btn mb-3' type='submit'>
                   Submit
                 </button>
               </form>
@@ -140,6 +147,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
