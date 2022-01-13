@@ -26,7 +26,7 @@ const AboutMe = () => {
              my technical skills in a team-oriented atmosphere.
                 </p>
                 <a href="https://www.linkedin.com/in/vijay-vemana/" target="_blank"><Button className="button-about-me px-5"> <span className="mx-3 "><BsLinkedin /></span>LinkedIn</Button></a>
-                <Button className="button-about-me mx-3 px-5"> <span className="mx-3 "><FaCloudDownloadAlt /></span>Resume</Button>
+                <a href="https://drive.google.com/file/d/1fVywa35CkVlRn9w3Vq1i476MpTO4xXTi/view?usp=sharing" target="_blank"><Button className="button-about-me mx-3 px-5"> <span className="mx-3 "><FaCloudDownloadAlt /></span>Resume</Button></a>
        </div>
                     </Col>
                 </Row>
