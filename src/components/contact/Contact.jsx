@@ -80,7 +80,7 @@ const Contact = () => {
                           message: 'Please use 30 characters or less'
                         }
                       })}
-                      className='form-control formInput bg-dark'
+                      className='form-control formInput color-field'
                       placeholder='Name'
                     ></input>
                     {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
@@ -93,7 +93,7 @@ const Contact = () => {
                         required: true,
                         pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                       })}
-                      className='form-control formInput'
+                      className='form-control formInput color-field'
                       placeholder='Email address'
                     ></input>
                     {errors.email && (
@@ -114,7 +114,7 @@ const Contact = () => {
                           message: 'Subject cannot exceed 75 characters'
                         }
                       })}
-                      className='form-control formInput'
+                      className='form-control formInput color-field'
                       placeholder='Subject'
                     ></input>
                     {errors.subject && (
@@ -131,7 +131,7 @@ const Contact = () => {
                       {...register('message', {
                         required: true
                       })}
-                      className='form-control formInput'
+                      className='form-control formInput color-field'
                       placeholder='Message'
                     ></textarea>
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}

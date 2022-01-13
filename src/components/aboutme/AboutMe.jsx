@@ -16,7 +16,7 @@ const AboutMe = () => {
                     </Col>
                     <Col>
                     <div className="about-me-info">
-         <h1 className='mb-3' >About Me </h1>
+         <h1 className='mb-3 about-link' >About Me </h1>
              <p> I am passionate about everything javascript.<br/> 
              I am a hardworking full-stack web developer with a flair for finding <br />
              elegant solutions in the least possible time.

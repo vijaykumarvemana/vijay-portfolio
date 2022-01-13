@@ -15,24 +15,29 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav"  className="justify-content-around p-1 text-white">
         <Nav>
-        
-        <Link  className="nav-link" activeClass="active" to="about-me" spy={true} smooth={true} offset={-70} duration={500}>
-        <Nav.Link  className="mx-5 text-white" >About Me</Nav.Link>
+        <Link className="nav-link ">
+        <Nav.Link  className="mx-4 text-white" >Home</Nav.Link>
+        </Link>
+        <Link  className="nav-link " activeClass="active" to="about-me" spy={true} smooth={true} offset={-70} duration={500}>
+        <Nav.Link  className="mx-4 text-white" >About Me</Nav.Link>
         </Link>
        
         <Link  className="nav-link" to="projects" spy={true} smooth={true} offset={-70} duration={500}>
-        <Nav.Link href="#projects" className="mx-5 text-white">Projects</Nav.Link>
+        <Nav.Link href="#projects" className="mx-4 text-white">Projects</Nav.Link>
         </Link>
         
         <Link  className="nav-link" activeClass="active" to="education" spy={true} smooth={true} offset={-70} duration={500}>
         
-        <Nav.Link href="#services" className="mx-5 text-white ">Education</Nav.Link>
+        <Nav.Link href="#services" className="mx-4 text-white ">Education</Nav.Link>
         </Link>
  
         <Link  className="nav-link" activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={500}>
-        <Nav.Link href="#skills" className="mx-5 text-white">Skills</Nav.Link>
+        <Nav.Link href="#skills" className="mx-4 text-white">Skills</Nav.Link>
         </Link>
-    
+        <Link  className="nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+        <Nav.Link href="#skills" className="mx-4 text-white">Contact</Nav.Link>
+        </Link>
+         
         </Nav>
         </Navbar.Collapse>
         </Navbar>
