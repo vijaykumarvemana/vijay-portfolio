@@ -3,7 +3,7 @@ import './Projects.css'
 import { FiLink} from "react-icons/fi"
 import {FiGithub} from "react-icons/fi"
 import { Element } from 'react-scroll';
-
+import image from "./dashboard-image.jpg"
 const Projects = () => {
     return(
         <Element name="projects">
@@ -15,32 +15,77 @@ const Projects = () => {
                     
                     <Col className="project-col mt-5">
                     <div className='project-container'>
-                        <h3 className='project-title'>Project</h3>
-                        <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
+                        <h3 className='project-title '>CRM Dashboard</h3>
+                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
+                        
+                        </div>
+                        <p>Skills:</p>
+                        <div className='mb-2'><span className='tech'>React</span>
+                        <span className='tech'>Redux</span>
+                        <span className='tech'>Node</span>
+                        <span className='tech'>Express</span><br/></div>
+                         <div> 
+                             <span className='tech my-1'>MongoDB</span>
+                             <span className='tech'>Recharts</span>
+                             <span className='tech'>MUI</span>
+                         </div>
+                       
+                       
+                        
                         <div className='project-links'>
-                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <a href='https://frontend-admin-dashboard-rho.vercel.app/' target="_blank"><Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button></a>
+                        <a href='https://github.com/vijaykumarvemana/frontend-admin-dashboard' target="_blank"><Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button></a>
                         </div>
                     </div>
                     </Col>
                     
                     <Col className="project-col mt-5">
                     <div className='project-container'>
-                        <h3 className='project-title'>Project</h3>
-                        <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
+                    <h3 className='project-title '>CRM Dashboard</h3>
+                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
+                        
+                        </div>
+                        <p>Skills:</p>
+                        <div className='mb-2'><span className='tech'>React</span>
+                        <span className='tech'>Redux</span>
+                        <span className='tech'>Node</span>
+                        <span className='tech'>Express</span><br/></div>
+                         <div> 
+                             <span className='tech my-1'>MongoDB</span>
+                             <span className='tech'>Recharts</span>
+                             <span className='tech'>MUI</span>
+                         </div>
+                       
+                       
+                        
                         <div className='project-links'>
-                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <a href='https://frontend-admin-dashboard-rho.vercel.app/' target="_blank"><Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button></a>
+                        <a href='https://github.com/vijaykumarvemana/frontend-admin-dashboard' target="_blank"><Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button></a>
                         </div>
                     </div>
                     </Col>
                     <Col className="project-col mt-5">
                     <div className='project-container'>
-                        <h3 className='project-title'>Project</h3>
-                        <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
+                    <h3 className='project-title '>CRM Dashboard</h3>
+                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
+                        
+                        </div>
+                        <p>Skills:</p>
+                        <div className='mb-2'><span className='tech'>React</span>
+                        <span className='tech'>Redux</span>
+                        <span className='tech'>Node</span>
+                        <span className='tech'>Express</span><br/></div>
+                         <div> 
+                             <span className='tech my-1'>MongoDB</span>
+                             <span className='tech'>Recharts</span>
+                             <span className='tech'>MUI</span>
+                         </div>
+                       
+                       
+                        
                         <div className='project-links'>
-                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <a href='https://frontend-admin-dashboard-rho.vercel.app/' target="_blank"><Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button></a>
+                        <a href='https://github.com/vijaykumarvemana/frontend-admin-dashboard' target="_blank"><Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button></a>
                         </div>
                     </div>
                     </Col>
@@ -49,32 +94,77 @@ const Projects = () => {
                     
                     <Col className="project-col mt-5">
                     <div className='project-container'>
-                        <h3 className='project-title'>Project</h3>
-                        <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
+                    <h3 className='project-title '>CRM Dashboard</h3>
+                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
+                        
+                        </div>
+                        <p>Skills:</p>
+                        <div className='mb-2'><span className='tech'>React</span>
+                        <span className='tech'>Redux</span>
+                        <span className='tech'>Node</span>
+                        <span className='tech'>Express</span><br/></div>
+                         <div> 
+                             <span className='tech my-1'>MongoDB</span>
+                             <span className='tech'>Recharts</span>
+                             <span className='tech'>MUI</span>
+                         </div>
+                       
+                       
+                        
                         <div className='project-links'>
-                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <a href='https://frontend-admin-dashboard-rho.vercel.app/' target="_blank"><Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button></a>
+                        <a href='https://github.com/vijaykumarvemana/frontend-admin-dashboard' target="_blank"><Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button></a>
                         </div>
                     </div>
                     </Col>
                     
                     <Col className="project-col mt-5">
                     <div className='project-container'>
-                        <h3 className='project-title'>Project</h3>
-                        <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
+                    <h3 className='project-title '>CRM Dashboard</h3>
+                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
+                        
+                        </div>
+                        <p>Skills:</p>
+                        <div className='mb-2'><span className='tech'>React</span>
+                        <span className='tech'>Redux</span>
+                        <span className='tech'>Node</span>
+                        <span className='tech'>Express</span><br/></div>
+                         <div> 
+                             <span className='tech my-1'>MongoDB</span>
+                             <span className='tech'>Recharts</span>
+                             <span className='tech'>MUI</span>
+                         </div>
+                       
+                       
+                        
                         <div className='project-links'>
-                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <a href='https://frontend-admin-dashboard-rho.vercel.app/' target="_blank"><Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button></a>
+                        <a href='https://github.com/vijaykumarvemana/frontend-admin-dashboard' target="_blank"><Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button></a>
                         </div>
                     </div>
                     </Col>
                     <Col className="project-col mt-5">
                     <div className='project-container'>
-                        <h3 className='project-title'>Project</h3>
-                        <p className='project-description'>Lorem ipsum dolor sit amet ad sd fdgs  bhkd fdka jjflk jaf lanf conse ctetur adipis icing elit. Obcaecati, sunt. lorem10 </p>
+                    <h3 className='project-title '>CRM Dashboard</h3>
+                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
+                        
+                        </div>
+                        <p>Skills:</p>
+                        <div className='mb-2'><span className='tech'>React</span>
+                        <span className='tech'>Redux</span>
+                        <span className='tech'>Node</span>
+                        <span className='tech'>Express</span><br/></div>
+                         <div> 
+                             <span className='tech my-1'>MongoDB</span>
+                             <span className='tech'>Recharts</span>
+                             <span className='tech'>MUI</span>
+                         </div>
+                       
+                       
+                        
                         <div className='project-links'>
-                        <Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button>
-                        <Button className='links'> <span className="mx-2 "><FiGithub /></span>GitHub</Button>
+                        <a href='https://frontend-admin-dashboard-rho.vercel.app/' target="_blank"><Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button></a>
+                        <a href='https://github.com/vijaykumarvemana/frontend-admin-dashboard' target="_blank"><Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button></a>
                         </div>
                     </div>
                     </Col>

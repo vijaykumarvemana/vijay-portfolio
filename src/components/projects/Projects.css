@@ -5,6 +5,9 @@
     
    
 }
+.project-title{
+ text-align: center;
+}
 .project-row{
     margin-top: -14px;
     margin-right: -118px;
@@ -42,3 +45,29 @@
 .git-repos{
     margin-bottom: 0px;
 }
+
+.project-image{
+    height: 200px;
+    width: 98%;
+    object-fit: cover;
+}
+.img-hover-zoom {
+ /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+}
+.img-hover-zoom--colorize img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+    margin-bottom: 17px;
+    width: 96%;
+  }
+  .img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+  .tech{
+      border: 1px solid #ffffff;
+      margin: 4px;
+      
+      background-color: rgb(0, 0, 0);
+     }
