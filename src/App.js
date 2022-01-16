@@ -10,6 +10,7 @@ import Profile from './components/profile/Profile';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
      <Education />
      <Skills />
      <Contact />
+     <Footer />
      </>
    
   );

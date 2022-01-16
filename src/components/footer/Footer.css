@@ -1,0 +1,21 @@
+.footer{
+    background-color: #1aa765;
+}
+
+.con-footer{
+ display: flex;
+ justify-content: center;
+
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+.linkedin-icon{
+    font-size: 26px;
+}
