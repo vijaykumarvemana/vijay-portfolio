@@ -4,6 +4,7 @@ import { FiLink} from "react-icons/fi"
 import {FiGithub} from "react-icons/fi"
 import { Element } from 'react-scroll';
 import image from "./dashboard-image.jpg"
+import project1 from "./vedogames.jpg"
 const Projects = () => {
     return(
         <Element name="projects">
@@ -41,11 +42,11 @@ const Projects = () => {
                     
                     <Col className="project-col mt-5">
                     <div className='project-container'>
-                    <h3 className='project-title '>CRM Dashboard</h3>
-                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
+                    <h3 className='project-title '>Video Game Sales</h3>
+                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={project1} /> 
                         
                         </div>
-                        <p>Skills:</p>
+                        <p className='mt-2'>Skills:</p>
                         <div className='mb-2'><span className='tech'>React</span>
                         <span className='tech'>Redux</span>
                         <span className='tech'>Node</span>
@@ -59,7 +60,7 @@ const Projects = () => {
                        
                         
                         <div className='project-links'>
-                        <a href='https://frontend-admin-dashboard-rho.vercel.app/' target="_blank"><Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button></a>
+                        <a href='https://video-game-sale-project.vercel.app/' target="_blank"><Button className='links'> <span className="mx-2 "><FiLink /></span>Website</Button></a>
                         <a href='https://github.com/vijaykumarvemana/frontend-admin-dashboard' target="_blank"><Button className='links' > <span className="mx-2 "><FiGithub /></span>GitHub</Button></a>
                         </div>
                     </div>
@@ -67,7 +68,7 @@ const Projects = () => {
                     <Col className="project-col mt-5">
                     <div className='project-container'>
                     <h3 className='project-title '>CRM Dashboard</h3>
-                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
+                        <div className="img-hover-zoom img-hover-zoom--colorize"><img src={project1} /> 
                         
                         </div>
                         <p>Skills:</p>

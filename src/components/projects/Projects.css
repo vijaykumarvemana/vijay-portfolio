@@ -57,7 +57,7 @@
 }
 .img-hover-zoom--colorize img {
     transition: transform .5s, filter 1.5s ease-in-out;
-    filter: grayscale(100%);
+    
     margin-bottom: 17px;
     width: 96%;
   }
