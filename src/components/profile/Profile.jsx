@@ -3,6 +3,8 @@ import "../profile/Profile.css"
 import { BsWhatsapp } from "react-icons/bs";
 import {FaPrayingHands} from "react-icons/fa";
 import { Element } from "react-scroll";
+import Fade from 'react-reveal/Fade';
+
 const Profile = () => {
 
     return (
@@ -12,10 +14,12 @@ const Profile = () => {
     <Row >
         <Col>
        <div className="profile">
+       <Fade left>
          <h5 >Hello, I'm </h5>
              <h1>VIJAY KUMAR VEMANA</h1>
             <h3 className="dev-h3"><span>Full Stack Web Developer</span></h3>
             <Button className="profile-button px-5"> <span className="mx-3 welcome-icon"><FaPrayingHands /></span>Welcome!</Button>
+            </Fade>
        </div>
         </Col>
         <Col >
