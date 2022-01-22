@@ -5,6 +5,7 @@ import { BsLinkedin} from "react-icons/bs"
 import {FaCloudDownloadAlt} from "react-icons/fa"
 import { Element, Link } from 'react-scroll'
 import Fade from 'react-reveal/Fade';
+import photo from "./photo.jpg"
 
 const AboutMe = () => {
     return (
@@ -12,8 +13,10 @@ const AboutMe = () => {
         <section className="about-me">
             <Container>
                 <Row>
-                    <Col>
-                    
+                    <Col className="pic">
+                       <div className='profile-pic-container'>
+                           <img src={photo} alt="profile" className="profile-pic"/>
+                       </div>
                     </Col>
                     <Col>
                     <div className="about-me-info">

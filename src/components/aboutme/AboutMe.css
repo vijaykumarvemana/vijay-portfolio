@@ -19,3 +19,29 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* .pic{
+    border: 1px solid #ffffff;
+    margin-top: 100px;
+} */
+.profile-pic-container{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+}
+
+.profile-pic{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-top: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: #c7c2c2 0px 0px 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -40%);
+    
+    
+}
