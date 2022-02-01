@@ -9,11 +9,11 @@
     margin-top:120px;
 }
 .about-link:hover{
-    color: #069229;
+    
 }
 
 .button-about-me{
-    background-color: #1331b6;
+    background-color: #06a87e;
     border: none;
     outline: none;
     padding-top: 10px;
@@ -38,7 +38,7 @@
     margin-top: 30px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: #c7c2c2 0px 0px 10px;
+    box-shadow: #38D39F 0px 0px 100px;
     left: 50%;
     top: 50%;
     transform: translate(-40%, -40%);

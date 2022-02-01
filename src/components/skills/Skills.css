@@ -99,12 +99,12 @@
 .skills-title{
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dotted #06a87e;
 }
 .skills-title1{
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dotted #06a87e;
 }
 .skills-col{
     margin-left: 240px;
