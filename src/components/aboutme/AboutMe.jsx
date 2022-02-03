@@ -22,16 +22,14 @@ const AboutMe = () => {
                     <div className="about-me-info">
                         <Fade right>
          <h1 className='mb-3 about-link' >About Me </h1>
-             <p> I am passionate about everything javascript.<br/> 
-             I am a hardworking full-stack web developer with a flair for finding <br />
-             elegant solutions in the least possible time.
+             <p>I am really social person and I can learn new things really fast. <br/> 
+             I am problem solver to finding elegant solutions in the least possible time.
              </p>
         
-             <p>I am looking for opportunities to learn new technologies and build <br />
-             my technical skills in a team-oriented atmosphere.
+             <p> The biggest impact on me, was joining Strive-School where I intensively learned how to develop web apps not only Front and Backend wise but aswell how to work within a different Team or Alone.
                 </p>
                 <a href="https://www.linkedin.com/in/vijay-vemana/" target="_blank"><Button className="button-about-me px-5"> <span className="mx-3 "><BsLinkedin /></span>LinkedIn</Button></a>
-                <a href="https://drive.google.com/file/d/1fVywa35CkVlRn9w3Vq1i476MpTO4xXTi/view?usp=sharing" target="_blank"><Button className="button-about-me mx-3 px-5"> <span className="mx-3 "><FaCloudDownloadAlt /></span>Resume</Button></a>
+                <a href="https://drive.google.com/file/d/1RLeXxX7SEW3CTiPVo2oXPtA_0hRj6STJ/view?usp=sharing" target="_blank"><Button className="button-about-me mx-3 px-5"> <span className="mx-3 "><FaCloudDownloadAlt /></span>Resume</Button></a>
                 </Fade>
        </div>
                     </Col>
