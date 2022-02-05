@@ -15,7 +15,7 @@ const Projects = () => {
             <h2 className='text-center pt-4'>Projects</h2>
                 <Row md={4} className="project-row" >
                     
-                    <Col className="project-col mt-5">
+                    <Col xs={12}  className="project-col mt-5">
                     <div className='project-container'>
                         <h3 className='project-title '>CRM Dashboard</h3>
                         <div className="img-hover-zoom img-hover-zoom--colorize"><img src={image} /> 
@@ -41,7 +41,7 @@ const Projects = () => {
                     </div>
                     </Col>
                     
-                    <Col className="project-col mt-5">
+                    <Col xs={12} className="project-col mt-5">
                     <div className='project-container'>
                     <h3 className='project-title '>Video Game Sales</h3>
                         <div className="img-hover-zoom img-hover-zoom--colorize"><img src={project1} /> 
@@ -66,7 +66,7 @@ const Projects = () => {
                         </div>
                     </div>
                     </Col>
-                    <Col className="project-col mt-5">
+                    <Col xs={12} className="project-col mt-5">
                     <div className='project-container'>
                     <h3 className='project-title '>Travel</h3>
                         <div className="img-hover-zoom img-hover-zoom--colorize"><img src={project2} /> 
